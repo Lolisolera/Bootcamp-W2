@@ -35,13 +35,13 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: lightblue (0, 0, 0, 0.7);
+    background-color: light-blue(0, 0, 0, 0.7);
     /* Semi-transparent black background */
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 999;
+    z-index: 1;
 
 }
 
@@ -57,9 +57,15 @@ nav {
     margin: 40px;
     padding: 1px 40px 8px 40px;
     border: 5px solid#719d4f;
+
+
 }
 
 .insta {
     width: 30px;
     height: 30px;
+}
+
+.end {
+    z-index: 1000;
 }
