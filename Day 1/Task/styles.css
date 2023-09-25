@@ -1,12 +1,22 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
 /* Sticky Navbar */
-.navbar {
+nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
-    background-color: pink;
-    padding-bottom: 20px;
+    height: 40px;
+    background-color: #43aa8b;
+    border: 5px solid orange;
+    padding-top: 20px;
+
+
     color: white;
     z-index: 100;
 }
@@ -32,4 +42,24 @@
     align-items: center;
     justify-content: center;
     z-index: 999;
+
+}
+
+.button {
+    background-color: red;
+    width: 150px;
+    height: 70px;
+}
+
+#footer {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f3722c;
+    margin: 40px;
+    padding: 1px 40px 8px 40px;
+    border: 5px solid#719d4f;
+}
+
+.insta {
+    width: 30px;
+    height: 30px;
 }
