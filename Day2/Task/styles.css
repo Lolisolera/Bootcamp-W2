@@ -2,3 +2,8 @@
 li:nth-child(odd) {
     background-color: lightgray;
 }
+
+/* Select every third row (3rd, 6th, 9th, etc.) */
+tr:nth-child(3n) {
+    background-color: lightblue;
+}
