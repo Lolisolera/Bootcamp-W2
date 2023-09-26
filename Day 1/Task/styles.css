@@ -62,7 +62,7 @@ nav {
 #footer {
     font-family: 'Ubuntu', sans-serif;
     background-color: #f3722c;
-    margin: 40px;
+    margin: 40px 5px;
     padding: 1px 40px 8px 40px;
     border: 5px solid#719d4f;
     z-index: 1000;
