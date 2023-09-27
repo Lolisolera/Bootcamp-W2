@@ -1,0 +1,75 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+/* Sticky Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+
+    background-color: #43aa8b;
+    border: 5px solid orange;
+    padding-top: 20px;
+    color: white;
+    z-index: 100;
+}
+
+/*  Content to demonstrate scrolling */
+.content {
+    height: 1000px;
+    background-color: #f9c74f;
+    padding: 20px;
+}
+
+/* Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    /* Adjust the height as needed */
+    background-color: rgba(0, 0, 0, 0);
+    /* Semi-transparent black background */
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+
+}
+
+.button {
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    /* Change to absolute positioning */
+    top: 300px;
+    /* Adjust the distance from the top as needed */
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Center horizontally */
+}
+
+#footer {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f3722c;
+    margin: 40px 5px;
+    padding: 1px 40px 8px 40px;
+    border: 5px solid#719d4f;
+    z-index: 1000;
+
+}
+
+.insta {
+    width: 30px;
+    height: 30px;
+}
