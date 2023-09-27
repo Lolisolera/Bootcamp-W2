@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    border: 3px solid black;
+    height: 80vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box1 {
+    background-color: #ff4557;
+}
+
+.box2 {
+    background-color: #1e90ff;
+}
+
+.box3 {
+    background-color: #2ed573;
+
+}
+
+/*.box4 {
+    background-color: purple;
+}
+
+/* Flexbox Code Below: */
+
+.container {
+    /* MUST CHANGE DISPLAY TO FLEX TO MAKE USE OF FLEX PROPERTIES*/
+    display: flex;
+    /*flex-Direction: sets the main axis*/
+    /*flex-direction: column-reverse;*/
+    flex-wrap: wrap;
+    /*justify-content: flex-start;
+
+    /*Justify-content:fles-start:*/
+    /* align-items: flex-start;*/
+    align-content: flex-start;
+}
+
+
+/*.box1 {
+    flex-basis: 300px;
+    flex-shrink: 5;
+}
+
+.box2 {
+
+    flex-basis: 300px;
+}
+
+.box3 {
+
+    flex-basis: 300px;
+}*/
+
+.box1 {
+    width: 200px;
+
+}
