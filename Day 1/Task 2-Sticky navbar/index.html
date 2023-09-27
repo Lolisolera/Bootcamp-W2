@@ -1,79 +1,58 @@
-<!--Using HTML and CSS I would like you to put together a sticky Navbar that remains at the top of the webpage whilst the user scrolls down the page. I would also like you to add a persistent overlay that stays in the same position of the viewport at all times.!-->
-
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <html lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Quicksand&family=Ubuntu&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-
-
-    <title>Sticky Navbar with Overlay</title>
+    <title>Sticky Navbar Example 2</title>
 </head>
 
-<body>
-    <header>
-        <nav>
 
+<body>
+    <div id="navbar">
+        <div class="links">
             <a href="#">Home</a>
             <a href="#main">About</a>
             <a href="#footer">Contact</a>
-
-        </nav>
-    </header>
-
-
-    <main id="main">
-        <div class="content">
-            <br>
-            <br>
-            <br>
-            <h1>Alien101</h1>
-            <p>Alien101 regularly attends and performs at AV events around London. She has provided live visuals for
-                many electronica performances, including featured shows at StowLab, Plugged, CRUX, Feedback, Imerse
-                Presents, 5th Dimension and Ravenswood for Eat or Heat Festival.
-            </p>
-            <p>She is currently performing live with
-                the Australian electronic musician, Sol Flare (aka Dominic Wood), who combines 80’s synths, dance floor
-                beats and soulful elements.
-            </p>
-
+        </div>
+    </div>
+    <container id="main">
+        <div class="container">
+            <h1>Zoom Photography.</h1>
+            <img src="https://t3.ftcdn.net/jpg/02/03/21/20/360_F_203212038_jaxPCN2l9RlQrvkIrK3lPkgPfnrPHgPq.jpg"
+                alt="placeholder">
+            <img src=" https://media.istockphoto.com/id/1184661675/photo/skyscrapers-from-below-lower-manhattan.jpg?s=612x612&w=0&k=20&c=ECw-O9w-V59kb-QO2ei63r5Wp7qrGqm6Ml1k901b8XY="
+                alt="placeholder">
+            <img src="https://media.istockphoto.com/id/462797937/photo/manhattan-b-w.jpg?s=612x612&w=0&k=20&c=2Poj86rKCYQzwHDPKWGDpQjwnJUx1W9svOUFTYOeGR8="
+                alt="placeholder">
         </div>
 
         <div class="overlay">
-
-            <button class="button" onclick="window.location.href='https://www.alien-101.co.uk';">
-                Find out more
-            </button>
-
+            <div class="logo-wrapper">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </div>
+            <div class="logo-wrapper">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </div>
+            <div class="logo-wrapper">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
         </div>
-
-    </main>
-    <br>
+    </container>
     <footer id="footer">
-        <h3>Contact me</h3>
-        <a href="https://www.alien-101.co.uk/">🌎Alien101</a>
-        <br>
-        <br>
-
-        <a href="https://www.instagram.com/_alien101/" target="_blank">
-            <img class="insta" src="instagram.jpeg" alt="Instagram Icon" />
-        </a>
+        <h3>Visit my website</h3>
+        <a href="https://www.alien-101.co.uk/">Alien101</a>
 
     </footer>
+
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-
 
 </html>
