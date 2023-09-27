@@ -19,6 +19,15 @@ nav {
     z-index: 100;
 }
 
+nav a {
+
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 20px;
+    font-size: 1.2em;
+}
+
+
 /*  Content to demonstrate scrolling */
 .content {
     height: 1000px;
